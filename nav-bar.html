@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+<style type="text/css">
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450__340.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: arial;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+	}
+	ul li{
+		float: left;
+		width: 200px;
+		height: 40px;
+		background-color: #212F3D;
+		opacity:0.9;
+		line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+			}
+	ul li a{
+       text-decoration: none;
+       background-color: white;
+       display: block;
+	}
+	ul li a:hover{
+		background-color:#F4D03F;
+	}
+	ul li ul li{
+		display: none;
+	}
+	ul li:hover ul li{
+        display:block;
+	}
+</style>
+
+</head>
+<body>
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a>
+     <ul>
+     	<li><a href="">Team</a></li>
+	    <li><a href="">client</a></li>
+	    <li><a href="">Careers</a></li>
+	    <li><a href="">legacy</a></li>
+     </ul>
+	</li>
+	<li><a href="">contact</a>
+	    <ul>
+            <li><a href="">Emails</a></li>
+	        <li><a href="">Phone</a></li>
+	        <li><a href="">LinkedIn</a></li>
+	        <li><a href="">Twitter</a></li>
+	    </ul>
+	</li>
+	<li><a href="">Services</a></li>
+	<li><a href="">News</a></li>
+</ul>
+</body>
+</html>

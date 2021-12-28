@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #212F3D;
+	}
+	.middle{
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn {
+		position: relative;
+		display:block;
+		color: white;
+		font-size: 25px;
+		font-family: "montserrat";
+		text-orientation: none;
+		margin: 30px 0;
+		border:2px solid #F4D03F;
+		padding: 14px 60px;
+		text-transform: uppercase;
+		overflow: hidden;
+		transition: 1s all ease;
+	}
+	.btn::before{
+		background-color: #E5E7E9;
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+	}
+</style>
+<body>
+  <div class="middle">
+  	<a href="" class="btn-btn1">Hover Me</a>
+  	<a href="" class="btn-btn2">Hover Me</a>
+  	<a href="" class="btn-btn3">Hover Me</a>
+  	<a href="" class="btn-btn4">Hover Me</a>
+  </div>
+
+</body>
+</html>
